@@ -1,0 +1,64 @@
+Average Elapsed CPU Time (ReadTimer) = 0.00132874 sec.
+First 6 words in dictionary:
+dermatitis
+toxins
+wisted
+benedictions
+Tera
+petrochemistry's
+Last 6 words in dictionary:
+harken
+Pict's
+Sidman's
+intercohort
+pressurize
+besotting
+
+Number of words:
+206590 american-english-words
+dermatitis: found
+bubble: found
+toxins: found
+apples: found
+zzzzzz: lost
+wisted: found
+benedictions: found
+Tera: found
+petrochemistry's: found
+Cam's: found
+flexion's: found
+gunpowder's: found
+formalin's: found
+Brigida: found
+rodding: found
+codex's: found
+Janna's: found
+Fontana: found
+ukuleles: found
+banana: found
+Average Elapsed CPU Time (SearchTimer) = 0.004093 sec.
+Average Elapsed CPU Time (ReadTimer) = 0.00362268 sec.
+
+Searching for words:
+banana FOUND
+ukuleles FOUND
+Fontana FOUND
+Janna's FOUND
+codex's FOUND
+rodding FOUND
+Brigida FOUND
+formalin's FOUND
+gunpowder's FOUND
+flexion's FOUND
+Cam's FOUND
+petrochemistry's FOUND
+Tera FOUND
+benedictions FOUND
+wisted FOUND
+zzzzzz LOST
+apples FOUND
+toxins FOUND
+bubble FOUND
+dermatitis FOUND
+
+Average Elapsed CPU Time (SearchTimer) = 0.0430378 sec.

@@ -1,0 +1,21 @@
+Victoria Weaver
+Applied Programming, Fall 2015
+Homework 3 Analysis
+
+Timing Analysis:
+
+Both the Dynamic Array and the Linked List data structures are analyzed for time when utilizing them for reading data and for searching.  Both data structures implement the same searching method of a linear search.  Timing macros from the previous homework are used to measure the time it takes to read the data and to search for words in the data set.
+
+From the analysis performed, the Dynamic Array performed faster with both reading in data and with searching for the data.  The data read is a set of 206590 American English words.  The Dynamic Array takes 0.00135476 seconds to read in the set of words.  The Linked List takes 0.0031111 seconds to read the data, which is roughly three times slower than the Dynamic Array.
+
+The linear search reads in a second set of words that are to be searched for in the original set of data.  The Dynamic Array takes 0.0032996 seconds to search for each word in the second set of data.  The Linked List takes 0.0466824 seconds to search for each word in the second set of data, which is more than 10 times slower than the Dynamic Array.
+
+Implementation:
+
+The Linked List:
+The linked list is a doubly-linked list in which the structure has a head node, a tail node, and a size (number of current nodes).  Each node points to a previous value and a next value in the list such that the node is the previous of its next.  Memory is allocated as each node is added to the list.  The linked list maintains the ability to add nodes to the front of the list and the back of the list as well as the ability to remove nodes from the front and the back of the list.  Destroying the list frees all the memory used by the nodes and sets the properties of the list to those which it was initialized with (null head and tail and size 0).
+
+The Dynamic Array:
+The Dynamic Array is the implementation from previous homework.  The Dynamic Array has the following attributes: Capacity, EntriesUsed, and Payload.  The Capacity is the total capacity of the array, the Entries used is the number of elements currently in the array, and the Payload is the array that actually holds the data (a string and a position).  The array "dynamically" increases its capacity when it runs out of room.  There are no nodes to access in this structure with no need to access the next or previous of a node.  This provides faster access time than the linked list.
+
+The searching demonstrates more a difference in efficiency of the data structure implementations, for reading in the data is a similar process for both of the structures.  
